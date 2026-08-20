@@ -80,6 +80,31 @@ up in day-to-day operations.
 
 ---
 
+### AI Development Tools
+
+[![Claude Code](https://img.shields.io/badge/Claude_Code-4F46E5?style=flat-square&logo=anthropic&logoColor=white)](https://claude.com/claude-code)
+[![Gemini CLI](https://img.shields.io/badge/Gemini_CLI-4F46E5?style=flat-square&logo=googlegemini&logoColor=white)](https://github.com/google-gemini/gemini-cli)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-4F46E5?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+![Laravel Boost](https://img.shields.io/badge/Laravel_Boost-4F46E5?style=flat-square&logo=laravel&logoColor=white)
+
+<details>
+<summary><b>How I use them</b></summary>
+
+| Tool | Use |
+| --- | --- |
+| Claude Code | Primary coding agent for scaffolding, refactors, and review passes. Configured per repository with a checked-in `CLAUDE.md` so conventions carry across sessions. |
+| Gemini CLI | Secondary agent for exploration and cross-checking approaches on larger changes. |
+| Model Context Protocol | MCP servers wired into the editor so agents can inspect the running application instead of guessing at it. |
+| Laravel Boost | MCP server exposing routes, Eloquent models, and schema to the agent during development. |
+| Herd MCP | Local Laravel Herd site control from the same MCP setup. |
+
+Agent configuration is committed alongside the code, so the setup is reproducible for anyone
+picking up the project.
+
+</details>
+
+---
+
 ### Selected Work
 
 <details open>
