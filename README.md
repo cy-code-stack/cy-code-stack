@@ -25,51 +25,109 @@
 
 ### About
 
-I build production web applications end to end — data modelling and backend services through
+I build production web applications end to end &mdash; data modelling and backend services through
 to the interfaces people actually use. Most of my work is delivered for local government units,
-schools, and small businesses: permitting and records systems, e-learning platforms, booking
-and dispatch tools, and internal dashboards.
+schools, and small businesses: permitting and records systems, e-learning platforms, booking and
+dispatch tools, and internal dashboards.
 
 My default stack is **Laravel + Inertia.js** with either **React** or **Vue** on the front end,
 typed with TypeScript and styled with Tailwind CSS. For admin-heavy systems I build on
-**Filament**. I care about role-based access control, auditable records, and reporting that
-holds up in day-to-day operations.
+**Filament**. I care about role-based access control, auditable records, and reporting that holds
+up in day-to-day operations.
 
 ---
 
 ### Tech Stack
 
-**Languages**
-`PHP` &middot; `TypeScript` &middot; `JavaScript` &middot; `Java` &middot; `SQL`
+<details open>
+<summary><b>Backend</b></summary>
 
-**Backend**
-`Laravel 12/13` &middot; `Filament 3` &middot; `Inertia.js` &middot; `Fortify` &middot; `Sanctum` &middot; `Spatie Permission` &middot; `Spatie Activitylog` &middot; `Eloquent` &middot; `MySQL`
+| Area | Tools |
+| --- | --- |
+| Framework | Laravel 12 / 13, Filament 3 |
+| Auth &amp; access | Fortify, Sanctum, Spatie Permission |
+| Data | Eloquent, MySQL, Spatie Data, Query Builder |
+| Auditing | Spatie Activitylog |
+| Reporting | DomPDF, Maatwebsite Excel, ApexCharts |
 
-**Frontend**
-`React 19` &middot; `Vue 3` &middot; `Pinia` &middot; `Tailwind CSS 4` &middot; `Radix UI` &middot; `Reka UI` &middot; `Vite` &middot; `ApexCharts` &middot; `Chart.js`
+</details>
 
-**Other**
-`Android (Java)` &middot; `TensorFlow / VGG16` &middot; `Firebase` &middot; `Three.js` &middot; `Leaflet` &middot; `Playwright` &middot; `ESLint / Prettier`
+<details>
+<summary><b>Frontend</b></summary>
+
+| Area | Tools |
+| --- | --- |
+| Frameworks | React 19, Vue 3 |
+| Bridge | Inertia.js, Wayfinder, Ziggy |
+| State | Pinia, TanStack-style hooks |
+| UI | Tailwind CSS 4, Radix UI, Reka UI, Lucide |
+| Build | Vite, TypeScript, ESLint, Prettier |
+
+</details>
+
+<details>
+<summary><b>Mobile, ML &amp; Other</b></summary>
+
+| Area | Tools |
+| --- | --- |
+| Mobile | Android (Java / Kotlin), Firebase |
+| Machine learning | TensorFlow, VGG16 transfer learning |
+| Graphics | Three.js, cannon-es physics |
+| Mapping | Leaflet, routing &amp; geocoding |
+| Testing | Playwright |
+
+</details>
 
 ---
 
 ### Selected Work
 
+<details open>
+<summary><b>Government &amp; Public Sector</b></summary>
+
 | Project | Stack | Description |
 | --- | --- | --- |
-| Barangay E-Services Management | Laravel · Filament | Resident and household registry, blotter and hearing records, document requests, and payment collections for a local government unit. |
-| Business Permit &amp; Licensing | Laravel · Vue · Tailwind | Permit application workflow with requirement checklists, fee schedules, payments, renewals, and QR-verified certificates. |
-| Science Literacy Platform | Laravel · Vue · Inertia | E-learning system with modules, lessons, assessments, per-student progress tracking, badges, and certificates. |
-| Decision Support System | Laravel · React · Inertia | Income-generating project tracking with milestones, document management, activity logging, and Excel/PDF reporting. |
-| Water Delivery Operations | Laravel · Filament · Leaflet | Order intake, delivery scheduling and routing, zone-based pricing, payments and refunds, and fuel consumption reporting. |
-| Vehicle Rental &amp; Fleet | Laravel · React · Inertia | Booking engine with driver assignment, document verification, OTP-verified accounts, maintenance logs, and payments. |
-| Parish Management | Laravel · React · Inertia | Appointment scheduling, certificate issuance, priest rosters, donations, and budget allocation with a full audit trail. |
-| [Real Estate Agent Portal](https://github.com/cy-code-stack/agent-web) | Laravel · React · Inertia | Agent workspace for clients, listings, projects, sales, and incentive tracking, with generated API documentation. |
-| [BestFit](https://github.com/cy-code-stack/bestfit) | Laravel · Vue · Inertia | AI styling assistant offering body-shape and colour analysis with conversational recommendations. |
-| [Coryza Disease Prediction](https://github.com/cy-code-stack/Coryza-Disease-Prediction) | Android · Java · VGG16 | Mobile app that classifies infectious coryza in poultry from images using a convolutional neural network. |
-| [Dentist Appointment System](https://github.com/cy-code-stack/Dentist-Appointment-System) | Laravel · Vue | Patient-facing booking, rescheduling, and cancellation for dental clinic appointments. |
+| Barangay E-Services Management | Laravel &middot; Filament | Resident and household registry, blotter and hearing records, document requests, and payment collections. |
+| Business Permit &amp; Licensing | Laravel &middot; Vue | Permit workflow with requirement checklists, fee schedules, payments, renewals, and QR-verified certificates. |
+| Decision Support System | Laravel &middot; React | Income-generating project tracking with milestones, document management, activity logs, and Excel / PDF reporting. |
 
-Several projects are client-owned and kept in private repositories; details are summarised above.
+</details>
+
+<details>
+<summary><b>Education</b></summary>
+
+| Project | Stack | Description |
+| --- | --- | --- |
+| Science Literacy Platform | Laravel &middot; Vue | Modules, lessons, and assessments with per-student progress tracking, badges, and certificates. |
+| Storm Surge Simulation | Three.js &middot; cannon-es | Interactive 3D model of coastal housing under storm surge conditions for disaster-awareness teaching. |
+
+</details>
+
+<details>
+<summary><b>Business &amp; Operations</b></summary>
+
+| Project | Stack | Description |
+| --- | --- | --- |
+| Water Delivery Operations | Laravel &middot; Filament &middot; Leaflet | Order intake, delivery scheduling and routing, zone pricing, payments and refunds, fuel reporting. |
+| Vehicle Rental &amp; Fleet | Laravel &middot; React | Booking engine with driver assignment, document verification, OTP accounts, maintenance logs, payments. |
+| Parish Management | Laravel &middot; React | Appointment scheduling, certificate issuance, priest rosters, donations, and budget allocation with audit trail. |
+
+</details>
+
+<details>
+<summary><b>Public Repositories</b></summary>
+
+| Project | Stack | Description |
+| --- | --- | --- |
+| [agent-web](https://github.com/cy-code-stack/agent-web) | Laravel &middot; React | Real estate agent workspace for clients, listings, projects, sales, and incentive tracking, with generated API docs. |
+| [bestfit](https://github.com/cy-code-stack/bestfit) | Laravel &middot; Vue | AI styling assistant with body-shape and colour analysis and conversational recommendations. |
+| [Coryza-Disease-Prediction](https://github.com/cy-code-stack/Coryza-Disease-Prediction) | Android &middot; VGG16 | Mobile app classifying infectious coryza in poultry from images using a convolutional neural network. |
+| [Dentist-Appointment-System](https://github.com/cy-code-stack/Dentist-Appointment-System) | Laravel &middot; Vue | Patient-facing booking, rescheduling, and cancellation for dental clinics. |
+| [valentine-invitation](https://github.com/cy-code-stack/valentine-invitation) | React &middot; Framer Motion | Animated interactive invitation page. |
+
+</details>
+
+<sub>Client-owned systems are kept in private repositories and summarised above without identifying details.</sub>
 
 ---
 
