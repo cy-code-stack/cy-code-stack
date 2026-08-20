@@ -1,7 +1,7 @@
 <h2 align="center">Cymon John Buladaco</h2>
 
 <p align="center">
-  Software Developer &middot; Full-stack web applications
+  Software Developer
 </p>
 
 <p align="center">
