@@ -37,6 +37,72 @@ up in day-to-day operations.
 
 ---
 
+### Experience
+
+**Software Engineer** &middot; devbeansPH &middot; Aug 2024 &ndash; Aug 2026
+
+Built and maintained an internal ERP suite for a real estate and construction group &mdash; four
+applications covering site operations, management reporting, public intake, and a sales-partner
+portal. Roughly 2,200 commits across the four repositories.
+
+<details open>
+<summary><b>ERP Platform</b> &mdash; core operations system</summary>
+
+| Module | Purpose | What I built |
+| --- | --- | --- |
+| HR &amp; Payroll | Replace spreadsheet timekeeping for site and office staff | Attendance import and on-site clock-in, holiday marking, overtime crediting rules, payroll period review adjustments, accounting finalization |
+| Purchasing | Control spend from request through to purchase order | Material request flow with urgency levels, canvass-to-PO pipeline, notice of PO modification, on-hold handling, role-scoped access to supplier pricing |
+| Suppliers | Keep vendor records and performance auditable | Bank and contact details, price history visible to quantity surveyors, supplier performance feedback form |
+| Motor Pool &amp; Equipment | Keep vehicles and heavy equipment available and serviced | Trip tickets with approver routing and driver availability, advance booking, preventive maintenance calendar with Excel matrix export, spare parts, downtime and job orders |
+| Fuel Monitoring | Track monthly fuel consumption per unit | Scheduled monthly sheet generation, day-cell entry grid with locking, audited models, permission-gated access |
+| Inventory | Track materials per project site | Per-project warehouses, project supplies, stock screens |
+| Sales &amp; Incentives | Pay partner commissions correctly | Buyer registration and data normalisation, payment reminders, incentive computation with team-leader attribution and attachments |
+| Project Costing | Show a true cost position per project | Cost summary including in-delivery cost, estimate syncing to housing units |
+
+</details>
+
+<details>
+<summary><b>Reporting Application</b> &mdash; management reporting</summary>
+
+| Purpose | What I built |
+| --- | --- |
+| Give management the numbers behind budget decisions | Cost-to-finish computation, budget allocation reporting, and the MBC report suite |
+
+</details>
+
+<details>
+<summary><b>Public Forms</b> &mdash; customer and applicant intake</summary>
+
+| Purpose | What I built |
+| --- | --- |
+| Let the public transact without phoning the office | Agent and buyer registration, site tour appointments, careers applications, and client feedback &mdash; with rate limiting and abuse hardening on the public endpoints |
+
+</details>
+
+<details>
+<summary><b>Sales Partner Portal</b> &mdash; accredited agent workspace</summary>
+
+| Purpose | What I built |
+| --- | --- |
+| Give accredited agents their own tools, separate from staff systems | Portal authentication, housing project map, project data corrections, and agent last-seen tracking |
+
+</details>
+
+<details>
+<summary><b>Ways of working</b></summary>
+
+| Practice | Detail |
+| --- | --- |
+| Specs first | Design specs and implementation plans written before larger modules were started |
+| Access control | A permission module and policy shipped with every new feature area |
+| Testing | Model factories and feature tests accompanying new modules |
+| Review | Conventional commits, a defined PR review workflow, and Linear issue tracking |
+| Tooling | Authored reusable Claude Code skills for PR review and handover, shared through the repository |
+
+</details>
+
+---
+
 ### Tech Stack
 
 <details open>
