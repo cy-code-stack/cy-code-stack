@@ -1,6 +1,6 @@
 # Cymon John Buladaco
 
-**Senior Full-Stack Developer · Laravel, React, Vue, TypeScript**
+**Full-Stack Developer · Laravel, React, Vue, TypeScript**
 
 I design and ship business systems that replace spreadsheets and manual processes: ERP, HR and
 payroll, purchasing, inventory, and permitting. Six years in production, most recently owning
