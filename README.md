@@ -3,7 +3,7 @@
 **Full-Stack Developer · Laravel, React, Vue, TypeScript**
 
 I design and ship business systems that replace spreadsheets and manual processes: ERP, HR and
-payroll, purchasing, inventory, and permitting. Six years in production, most recently owning
+payroll, purchasing, inventory, and permitting. 4 years in production, most recently owning
 architecture on a real estate and construction ERP with 2,000+ active users.
 
 **Open to full-stack roles, remote** · Philippines (UTC+8) ·
