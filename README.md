@@ -6,7 +6,7 @@ I design and ship business systems that replace spreadsheets and manual processe
 payroll, purchasing, inventory, and permitting. Six years in production, most recently owning
 architecture on a real estate and construction ERP with 2,000+ active users.
 
-**Open to senior full-stack roles, remote** · Philippines (UTC+8) ·
+**Open to full-stack roles, remote** · Philippines (UTC+8) ·
 [Email](mailto:buladacocymonjohn02@gmail.com) ·
 [LinkedIn](https://www.linkedin.com/in/cymon-john-buladaco-1875b2254/) ·
 [Portfolio](https://cymon-portfolio.vercel.app)
